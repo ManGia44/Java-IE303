@@ -8,7 +8,7 @@ public class ProductDetailPanel extends JPanel {
 
     public ProductDetailPanel() {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-        setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20)); 
+        setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
         imageLabel = new JLabel();
         imageLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -18,29 +18,29 @@ public class ProductDetailPanel extends JPanel {
         JSeparator separator = new JSeparator(SwingConstants.HORIZONTAL);
         separator.setMaximumSize(new Dimension(Integer.MAX_VALUE, 1));
         add(separator);
-        add(Box.createVerticalStrut(15)); 
+        add(Box.createVerticalStrut(15));
 
         nameLabel = new JLabel();
         nameLabel.setFont(new Font("Arial", Font.BOLD, 20));
-        nameLabel.setAlignmentX(Component.LEFT_ALIGNMENT); 
+        nameLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
         add(nameLabel);
         add(Box.createVerticalStrut(15));
 
-\        priceLabel = new JLabel();
+        priceLabel = new JLabel();
         priceLabel.setFont(new Font("Arial", Font.BOLD, 18));
-        priceLabel.setAlignmentX(Component.LEFT_ALIGNMENT); 
+        priceLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
         add(priceLabel);
         add(Box.createVerticalStrut(10));
 
         branchLabel = new JLabel();
         branchLabel.setFont(new Font("Arial", Font.PLAIN, 14));
-        branchLabel.setAlignmentX(Component.LEFT_ALIGNMENT); 
+        branchLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
         add(branchLabel);
         add(Box.createVerticalStrut(10));
 
         descLabel = new JLabel();
         descLabel.setFont(new Font("Arial", Font.PLAIN, 14));
-        descLabel.setAlignmentX(Component.LEFT_ALIGNMENT); 
+        descLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
         add(descLabel);
     }
 
