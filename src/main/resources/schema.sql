@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS shoe (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    price DOUBLE NOT NULL,
+    brand VARCHAR(50) NOT NULL,
+    description TEXT,
+    image_path VARCHAR(255)
+);
